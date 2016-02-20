@@ -41,8 +41,6 @@ atom=(
   file-icons
   git-history
   highlight-selected
-  image-view
-  markdown-preview
   merge-conflicts
   react
   sublime-style-column-selection
