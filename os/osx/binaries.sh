@@ -29,25 +29,32 @@ brew install homebrew/dupes/grep
 
 # Install other useful binaries
 binaries=(
-  graphicsmagick
-  boot2docker
-  webkit2png
-  phantomjs
-  rename
-  zopfli
+  ack
+  bash-completion
   ffmpeg
+  gettext
+  git
+  graphicsmagick
+  hdf5
+  imagemagick
+  jpeg
+  jpegoptim
+  lame
+  libpng
+  librsvg
+  libyaml
+  mysql
+  node
+  phantomjs
+  postgresql
   python
-  mongo
+  sqlite
   sshfs
   trash
-  node
-  tree
-  hub
-  ack
-  git
-  hub
-  fig
-  go
+  unrar
+  webkit2png
+  wget
+  youtube-dl
 )
 
 # Install the binaries
