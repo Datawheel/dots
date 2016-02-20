@@ -38,7 +38,6 @@ atom=(
   atom-beautify
   color-picker
   css-comb
-  fancy-new-file
   file-icons
   git-history
   highlight-selected
