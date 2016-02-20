@@ -375,13 +375,13 @@ echo ""
 echo "Disable hibernation (speeds up entering sleep mode)"
 sudo pmset -a hibernatemode 0
 
-echo ""
-echo "Remove the sleep image file to save disk space"
-sudo rm /private/var/vm/sleepimage
-echo "Creating a zero-byte file instead"
-sudo touch /private/var/vm/sleepimage
-echo "and make sure it can't be rewritten"
-sudo chflags uchg /private/var/vm/sleepimage
+# echo ""
+# echo "Remove the sleep image file to save disk space"
+# sudo rm /private/var/vm/sleepimage
+# echo "Creating a zero-byte file instead"
+# sudo touch /private/var/vm/sleepimage
+# echo "and make sure it can't be rewritten"
+# sudo chflags uchg /private/var/vm/sleepimage
 
 echo ""
 echo "Disable the sudden motion sensor as it's not useful for SSDs"
@@ -397,9 +397,9 @@ echo "Disable computer sleep and stop the display from shutting off"
 sudo pmset -a sleep 0
 sudo pmset -a displaysleep 0
 
-echo ""
-echo "Disable annoying backswipe in Chrome"
-defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
+# echo ""
+# echo "Disable annoying backswipe in Chrome"
+# defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool false
 
 ###############################################################################
 # Kill affected applications
