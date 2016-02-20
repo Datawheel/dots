@@ -52,7 +52,6 @@ binaries=(
   postgresql
   python
   sqlite
-  homebrew/fuse/sshfs
   trash
   unrar
   webkit2png
